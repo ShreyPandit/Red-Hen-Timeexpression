@@ -38,7 +38,7 @@ jobs:
 
           registry: ghcr.io
 
-          image_name: ${{ github.actor }}/$image$
+          image_name: ${{ github.actor }}/$__image__$
 
           username: ${{ github.actor }}
 
