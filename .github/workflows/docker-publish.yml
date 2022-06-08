@@ -14,6 +14,6 @@ jobs:
         uses: whoan/docker-build-with-cache-action@v5
         with:
           registry: ghcr.io
-          image_name: ${{ github.actor }}/image
+          image_name: image
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
